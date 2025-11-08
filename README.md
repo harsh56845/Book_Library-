@@ -36,15 +36,15 @@ flutter run -d chrome
 
 ---
 
-## 🧠 Technologies Used
+## 🧠 Technologies Used and Why I Chose Them
 
-| Technology | Purpose | Reason for Choosing |
-|-------------|----------|---------------------|
-| **Flutter (Web)** | Frontend UI | Single codebase for responsive web app |
-| **Firebase Authentication** | Secure user login/signup | Easy integration with Flutter & no server setup |
-| **Firebase Firestore** | Database for books, users, and borrow info | Real-time sync & scalable NoSQL database |
-| **Firebase Hosting** | Deployment | Fast global CDN hosting for Flutter web apps |
-| **Dart** | Programming Language | Core language for Flutter framework |
+| Technology | Purpose | Why I Chose It |
+|-------------|----------|----------------|
+| **Flutter (Web)** | To build a modern, responsive frontend UI | Flutter allows building web apps, Android, and iOS using a **single codebase**, reducing development time while maintaining great UI performance. |
+| **Firebase Authentication** | To handle secure user login/signup | It provides **ready-to-use authentication**, supports multiple providers (email, Google, etc.), and is simple to integrate without writing backend code. |
+| **Firebase Firestore** | To store books, users, and borrow information | Firestore offers **real-time updates**, scalable NoSQL structure, and is easy to query and sync with Flutter apps. |
+| **Firebase Hosting** | To deploy the web app globally | Hosting is **fast, reliable**, and integrates seamlessly with Firebase services and Flutter build outputs. |
+| **Dart** | Programming language used by Flutter | Dart is **optimized for UI**, has a simple syntax, and provides fast compilation to JavaScript for the web. |
 
 ---
 
@@ -52,7 +52,8 @@ flutter run -d chrome
 
 - One user can borrow multiple books.  
 - Admins can add or update books.  
-- Books contain reference fields to the user who borrowed them.
+- Each book has a reference to the user who borrowed it (if borrowed).  
+- Real-time updates ensure users always see the latest book availability.  
 
 ---
 
@@ -72,10 +73,10 @@ flutter run -d chrome
 
 ## 🖼️ App Overview
 
-- **Users:** Can view and borrow books  
-- **Admins:** Can add, update, and manage book details  
-- **Firestore:** Stores users, books, and borrow history  
-- **Hosting:** Deployed live using Firebase Hosting  
+- **Users:** Can view available books, borrow, and return them.  
+- **Admins:** Can add, update, and manage book details.  
+- **Firestore:** Stores users, books, and borrow history with relations.  
+- **Hosting:** Deployed live using Firebase Hosting with secure configuration.  
 
 ---
 
