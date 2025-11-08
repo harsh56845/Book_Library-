@@ -71,7 +71,7 @@ flutter run -d chrome
 
 ---
 
-## 🖼️ **[ER Diagram]([https://booklibrary-51b91.web.app/](https://drive.google.com/file/d/12ucn01K6pCQd9XveJP8WitTmdesBvN_B/view?usp=drivesdk))**
+**[ER Diagram]([https://booklibrary-51b91.web.app/](https://drive.google.com/file/d/12ucn01K6pCQd9XveJP8WitTmdesBvN_B/view?usp=drivesdk))**
 
 ---
 ## 🖼️ App Overview
