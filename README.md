@@ -8,7 +8,7 @@ This project is developed using the MVC (Model-View-Controller) architecture for
 ---
 
 ## 🌐 Deployed Application  
-👉 **[BookLibrary Live Demo](https://booklibrary-51b91.web.app/)**
+👉 Web Application Link -> **[BookLibrary Live Demo](https://booklibrary-51b91.web.app/)**
 
 📱 Android version of this app is also available, built from the same Flutter codebase. 
 👉 **[APK Link](https://drive.google.com/file/d/1596ycccqSR09wSRuorC_BwuM99FR1ruz/view?usp=sharing)**
