@@ -3,11 +3,15 @@
 A modern **Flutter web application** designed to manage a personal book collection efficiently.  
 **Admins** can add or update books, while **users** can borrow and return them.  
 The project uses **Firebase Firestore** for the backend and **Firebase Hosting** for deployment.
+This project is developed using the MVC (Model-View-Controller) architecture for clean and maintainable code.
 
 ---
 
 ## 🌐 Deployed Application  
 👉 **[BookLibrary Live Demo](https://booklibrary-51b91.web.app/)**
+
+📱 Android version of this app is also available, built from the same Flutter codebase. 
+👉 **[APK Link](https://drive.google.com/file/d/1596ycccqSR09wSRuorC_BwuM99FR1ruz/view?usp=sharing)**
 
 ---
 
