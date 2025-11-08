@@ -86,7 +86,3 @@ flutter run -d chrome
 📱 +91 9560386055  
 🎓 MCA (2024–2026), Harcourt Butler Technical University, Kanpur  
 
----
-
-## 🚀 Live Demo  
-👉 [https://booklibrary-51b91.web.app/](https://booklibrary-51b91.web.app/)
