@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "932132170463",
+    "project_id": "booklibrary-51b91",
+    "storage_bucket": "booklibrary-51b91.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932132170463:android:8eb596b917f59fe3bb576a",
+        "android_client_info": {
+          "package_name": "com.example.book_villa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA30sLZHsbbeqv3iTd-WpivbF9ypDL_DGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
