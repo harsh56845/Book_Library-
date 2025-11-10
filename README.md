@@ -54,24 +54,10 @@ flutter run -d chrome
 
 ## 📘 Description
 
-- One user can borrow multiple books.  
-- Admins can add or update books.  
+- One user can borrow multiple books but one book at a time and return the books.  
+- Admins can add,update and delete books.  
 - Each book has a reference to the user who borrowed it (if borrowed).  
 - Real-time updates ensure users always see the latest book availability.  
-
----
-
-## 🔗 API Endpoints List
-
-| HTTP Method | Route | Purpose |
-|--------------|--------|----------|
-| **POST** | `/api/register` | Register a new user |
-| **POST** | `/api/login` | Authenticate user login |
-| **GET** | `/api/books` | Fetch all books from Firestore |
-| **POST** | `/api/books/add` | Add a new book (Admin only) |
-| **PUT** | `/api/books/update/:id` | Update book details |
-| **POST** | `/api/books/borrow/:id` | Borrow a book |
-| **POST** | `/api/books/return/:id` | Return a borrowed book |
 
 ---
 
